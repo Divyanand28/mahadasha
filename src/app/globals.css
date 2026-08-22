@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --parchment: #fdf7e8;
+}
+
+body {
+  background-color: var(--parchment);
+  background-image:
+    radial-gradient(circle at 12% 8%, rgba(201, 148, 44, 0.14), transparent 45%),
+    radial-gradient(circle at 88% 6%, rgba(161, 29, 29, 0.10), transparent 40%),
+    radial-gradient(circle at 50% 100%, rgba(201, 148, 44, 0.12), transparent 55%);
+  background-attachment: fixed;
+}
+
+.font-serif {
+  font-family: "Cinzel Decorative", "Cormorant Garamond", "Noto Serif Devanagari",
+    Georgia, serif;
+}
+
+body,
+input,
+button,
+table {
+  font-family: "Noto Sans Devanagari", "Cormorant Garamond", ui-sans-serif, system-ui,
+    sans-serif;
+}
